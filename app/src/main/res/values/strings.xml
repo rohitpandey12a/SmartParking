@@ -1,0 +1,38 @@
+<resources>
+	<string name="app_name">Smart Parking</string>
+	<string name="register_user">Register User</string>
+	<string name="booking">Booking</string>
+	<string name="mybooking">My Booking</string>
+	<string name="getroute">Get Route</string>
+	<string name="my_account">My Account</string>
+	<string name="enter_time">Enter Time</string>
+	<string name="select_date">Select Date</string>
+	<string name="type">TYPE of Parking Slot Available</string>
+	<string name="submit">Submit</string>
+	<string name="button1">Confirm Booking</string>
+	<string name="cost_details">Get Details</string>
+	<string name="slot_2">Slot 2</string>
+	<string name="slot_1">Slot 1</string>
+	<string name="slot_4">Slot 4</string>
+	<string name="slot_3">Slot 3</string>
+	<string name="user_login">User Login</string>
+	<string name="enter_email">Enter Email</string>
+	<string name="enter_password">Enter Password</string>
+	<string name="login">SIGN IN</string>
+	<string name="not_have_an_account_register_here">Not Have An Account? Register Here.</string>
+	<string name="already_register_sign_here">Already Register Login Here</string>
+	<string name="book_my_parking_slot">Book My Parking Slot</string>
+	<string name="show_slot">Show Slot</string>
+	<string name="show_route">Show Route</string>
+	<string name="enter_name">Enter Name</string>
+	<string name="enter_number">Enter Number</string>
+	<string name="information">Information</string>
+	<string name="logout">logout</string>
+	<string name="vehicle_not_present">Vehicle Not Present</string>
+	<string name="vehicle_present">Vehicle Present</string>
+	<string name="date23">date</string>
+	<string-array name="Select">
+		<item>Shaded</item>
+		<item>UnShaded</item>
+	</string-array>
+</resources>

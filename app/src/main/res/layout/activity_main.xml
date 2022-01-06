@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MainActivity">
+
+		
+		<LinearLayout
+			android:layout_margin="15dp"
+			android:layout_centerHorizontal="true"
+			android:layout_centerVertical="true"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			tools:ignore="MissingConstraints"
+			android:focusable="true">
+			
+			<TextView
+				android:id="@+id/UserRegister"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:clickable="false"
+				android:text="@string/register_user"
+				android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+			<EditText
+				android:layout_margin="15dp"
+				android:inputType="textEmailAddress"
+				android:hint="@string/enter_email"
+				android:id="@+id/edittextemail"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:importantForAutofill="no"
+				android:focusable="true"/>
+			
+			<EditText
+				android:layout_margin="15dp"
+				android:inputType="textPassword"
+				android:hint="@string/enter_password"
+				android:id="@+id/edittextpass"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:importantForAutofill="no"
+				android:focusable="true"/>
+			
+			<Button
+				android:id="@+id/buttonRegister"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="15dp"
+				android:focusable="true"
+				android:text="@string/register_user" />
+			
+			<TextView
+				android:id="@+id/textviewsignin"
+				style="button"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:clickable="true"
+				android:focusable="true"
+				android:gravity="center_horizontal"
+				android:text="@string/already_register_sign_here"
+				android:textAlignment="center"
+				android:textColor="#0B0B0B"
+				android:textSize="14sp"
+				android:textStyle="normal" />
+		
+		</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

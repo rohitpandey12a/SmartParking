@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".Route">
+	
+	<TextView
+		android:id="@+id/greenslot"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="30dp"
+		android:layout_marginLeft="30dp"
+		android:layout_marginTop="25dp"
+		android:background="#05FA41"
+		android:text="@string/vehicle_present"
+		android:textStyle="bold"
+		android:translationX="10sp"
+		android:translationY="5sp"
+		app:layout_constraintStart_toEndOf="@+id/redslot"
+		app:layout_constraintTop_toTopOf="parent" />
+	
+	<com.google.android.material.floatingactionbutton.FloatingActionButton
+		android:id="@+id/RHome"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:clickable="true"
+		android:focusable="true"
+		android:translationX="0sp"
+		android:translationY="0sp"
+		app:layout_constraintBottom_toTopOf="@+id/showslot"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintVertical_bias="0.0"
+		app:srcCompat="@drawable/home" />
+	
+	<FrameLayout
+		android:id="@+id/parking_area"
+		android:layout_width="303dp"
+		android:layout_height="297dp"
+		android:layout_marginStart="100dp"
+		android:layout_marginLeft="100dp"
+		android:layout_marginTop="100dp"
+		android:layout_marginEnd="100dp"
+		android:layout_marginRight="100dp"
+		android:layout_marginBottom="100dp"
+		android:clickable="false"
+		android:clipChildren="false"
+		android:clipToPadding="false"
+		android:foregroundGravity="center"
+		android:longClickable="false"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent">
+		
+		<Button
+			android:id="@+id/slot1"
+			style="@android:style/Widget.DeviceDefault.Button.Borderless"
+			android:layout_width="60sp"
+			android:layout_height="60sp"
+			android:background="@android:color/holo_blue_dark"
+			android:clickable="false"
+			android:linksClickable="false"
+			android:longClickable="false"
+			android:text="@string/slot_1"
+			android:translationX="85sp"
+			android:translationY="50sp"
+			tools:ignore="MissingConstraints"
+			tools:layout_editor_absoluteX="144dp"
+			tools:layout_editor_absoluteY="276dp" />
+		
+		<Button
+			android:id="@+id/slot4"
+			style="@android:style/Widget.DeviceDefault.Button.Borderless"
+			android:layout_width="60sp"
+			android:layout_height="60sp"
+			android:background="@android:color/holo_blue_dark"
+			android:clickable="false"
+			android:linksClickable="false"
+			android:longClickable="false"
+			android:text="@string/slot_4"
+			android:translationX="150sp"
+			android:translationY="160sp"
+			tools:ignore="MissingConstraints"
+			tools:layout_editor_absoluteX="144dp"
+			tools:layout_editor_absoluteY="276dp" />
+		
+		<Button
+			android:id="@+id/slot3"
+			style="@android:style/Widget.DeviceDefault.Button.Borderless"
+			android:layout_width="60dp"
+			android:layout_height="60sp"
+			android:background="@android:color/holo_blue_dark"
+			android:clickable="false"
+			android:linksClickable="false"
+			android:longClickable="false"
+			android:text="@string/slot_3"
+			android:translationX="85sp"
+			android:translationY="160sp"
+			tools:ignore="MissingConstraints"
+			tools:layout_editor_absoluteX="144dp"
+			tools:layout_editor_absoluteY="276dp" />
+		
+		<Button
+			android:id="@+id/slot2"
+			style="@android:style/Widget.DeviceDefault.Button.Borderless"
+			android:layout_width="60sp"
+			android:layout_height="60sp"
+			android:background="@android:color/holo_blue_dark"
+			android:clickable="false"
+			android:linksClickable="false"
+			android:longClickable="false"
+			android:text="@string/slot_2"
+			android:translationX="150sp"
+			android:translationY="50sp"
+			tools:ignore="MissingConstraints"
+			tools:layout_editor_absoluteX="144dp"
+			tools:layout_editor_absoluteY="276dp" />
+		
+		<TextView
+			android:id="@+id/route1"
+			android:layout_width="243sp"
+			android:layout_height="45sp"
+			android:background="@color/common_google_signin_btn_text_light_focused"
+			android:clickable="false"
+			android:linksClickable="false"
+			android:longClickable="false"
+			android:translationX="26sp"
+			android:translationY="235sp" />
+		
+		<TextView
+			android:id="@+id/route3"
+			android:layout_width="45sp"
+			android:layout_height="185sp"
+			android:background="@color/common_google_signin_btn_text_light_focused"
+			android:clickable="false"
+			android:linksClickable="false"
+			android:longClickable="false"
+			android:translationX="224sp"
+			android:translationY="50sp" />
+		
+		<TextView
+			android:id="@+id/route4"
+			android:layout_width="153.2sp"
+			android:layout_height="25sp"
+			android:background="@color/common_google_signin_btn_text_light_focused"
+			android:clickable="false"
+			android:linksClickable="false"
+			android:longClickable="false"
+			android:translationX="71sp"
+			android:translationY="123sp" />
+		
+		<TextView
+			android:id="@+id/loginlabel"
+			android:layout_width="45sp"
+			android:layout_height="185sp"
+			android:background="@color/common_google_signin_btn_text_light_focused"
+			android:clickable="false"
+			android:linksClickable="false"
+			android:longClickable="false"
+			android:translationX="26sp"
+			android:translationY="50sp" />
+	
+	
+	</FrameLayout>
+	
+	<Button
+		android:id="@+id/showslot"
+		android:layout_width="125sp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="75dp"
+		android:layout_marginLeft="75dp"
+		android:layout_marginEnd="50dp"
+		android:layout_marginRight="50dp"
+		android:text="@string/show_slot"
+		app:layout_constraintBottom_toTopOf="@+id/parking_area"
+		app:layout_constraintEnd_toStartOf="@+id/showroute"
+		app:layout_constraintStart_toStartOf="parent" />
+	
+	<Button
+		android:id="@+id/showroute"
+		android:layout_width="125sp"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="75dp"
+		android:layout_marginRight="75dp"
+		android:text="@string/show_route"
+		app:layout_constraintBottom_toTopOf="@+id/parking_area"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toEndOf="@+id/showslot" />
+	
+	<TextView
+		android:id="@+id/redslot"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="10dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginTop="25dp"
+		android:background="@android:color/holo_red_light"
+		android:text="@string/vehicle_not_present"
+		android:textStyle="bold"
+		android:translationX="5sp"
+		android:translationY="5sp"
+		app:layout_constraintStart_toEndOf="@+id/RHome"
+		app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
